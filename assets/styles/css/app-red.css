@@ -9137,3 +9137,12 @@ App Specific Styles
 
 .tr_one	{ background-color: #900; color:#FFF; text-align: left; }
 .tr_two	{ background-color:#242424; color:#FFF; text-align: left; }
+
+.button.border:hover{
+  background-color: #bb1c1c;
+  color: #FFF;
+}
+.button.border.clicked{
+  background-color: #bb1c1c;
+  color: #FFF;
+}
