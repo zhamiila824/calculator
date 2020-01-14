@@ -9146,3 +9146,8 @@ App Specific Styles
   background-color: #bb1c1c;
   color: #FFF;
 }
+
+tr:hover{
+  background-color: #BB1C1c;
+  color: #fff;
+}
