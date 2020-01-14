@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     'use strict';
 
-    var sum = document.getElementById('sum');
+    var sum = document.getElementById("total_sum");
 
     $("tr").click(function(){
         $(this).toggleClass("selected");
         var price = $(this).find("span").text();
         if($(this).hasClass("selected")){
-            // TO DO plus
+            var new_sum = parseInt($(sum).text()) + parseInt(price);
+            $(sum).html(new_sum);
         } else{
-            // TO DO minus
+            var new_sum = parseInt($(sum).text()) - parseInt(price);
+            $(sum).html(new_sum);
         }
     });
 
