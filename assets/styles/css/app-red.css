@@ -9147,7 +9147,7 @@ App Specific Styles
   color: #FFF;
 }
 
-tr:hover{
+.selected, tr:hover{
   background-color: #BB1C1c;
   color: #fff;
 }
